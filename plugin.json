@@ -1,0 +1,32 @@
+{
+  "name": "top-banner",
+  "version": "1.0.0",
+  "displayName": "Top Banner",
+  "description": "Display a customizable banner at the top of your website",
+  "author": "De Haas Digital",
+  "remoteManifestUrl": "",
+  "changelogUrl": "",
+  "entry": {
+    "server": "server.js"
+  },
+  "configSchema": {
+    "message": {
+      "type": "string",
+      "label": "Banner Message",
+      "default": "Nu ook online te bestellen!",
+      "description": "The text to display in the banner"
+    },
+    "bgColor": {
+      "type": "color",
+      "label": "Background Color",
+      "default": "var(--color-brand-yellow)",
+      "description": "Banner background color (CSS color value or var)"
+    },
+    "textColor": {
+      "type": "color",
+      "label": "Text Color",
+      "default": "var(--color-brand-black)",
+      "description": "Banner text color (CSS color value or var)"
+    }
+  }
+}
