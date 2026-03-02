@@ -4,8 +4,7 @@
   "displayName": "Top Banner",
   "description": "Toon een aanpasbare banner bovenaan uw website.",
   "author": "De Haas Digital",
-  "remoteManifestUrl": "",
-  "changelogUrl": "",
+  "capabilities": ["ui.inject"],
   "entry": {
     "server": "server.js"
   },
@@ -13,19 +12,19 @@
     "message": {
       "type": "string",
       "label": "Banner Bericht",
-      "default": "Nu ook online te bestellen!",
+      "default": "Please update this text.",
       "description": "The text to display in the banner"
     },
     "bgColor": {
       "type": "color",
       "label": "Achtergrond kleur",
-      "default": "var(--color-brand-yellow)",
+      "default": "#000000",
       "description": "Achtergrondkleur van de banner (CSS-kleurwaarde of var)"
     },
     "textColor": {
       "type": "color",
       "label": "Text Kleur",
-      "default": "var(--color-brand-black)",
+      "default": "#ffffff",
       "description": "Bannertekstkleur (CSS-kleurwaarde of var)"
     }
   }
